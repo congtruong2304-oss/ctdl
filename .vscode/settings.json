@@ -1,0 +1,20 @@
+{
+// Bao luon ghi tep bang bang ma UTF-8, de chu tieng Viet
+// trong chu thich khong bi hong khi mo tren may khac.
+"files.encoding": "utf8",
+// Them ky tu xuong dong o cuoi tep. Mot so cong luyen tap
+// bao loi neu dong cuoi cung cua tep khong ket thuc dung cach.
+"files.insertFinalNewline": true,
+// Nhan phim Tab thi chen 4 dau cach thay vi ky tu tab.
+"editor.insertSpaces": true,
+"editor.tabSize": 4,
+// Ve mot vach doc o cot 80 de tu biet khi nao dong qua dai.
+// Tu luu tep sau 1 giay khong go, khoi quen Ctrl+S roi
+// bien dich nham ban cu.
+"files.autoSave": "afterDelay",
+"files.autoSaveDelay": 1000,
+// Chuan C++ ma tien ich dung de kiem tra cu phap.
+// Phai trung voi -std=c++17 trong tasks.json.
+"C_Cpp.default.cppStandard": "c++17",
+"python-envs.defaultEnvManager": "ms-python.python:system"
+}

@@ -1,0 +1,6 @@
+# Bỏ qua tệp thực thi sinh ra
+*.exe
+*.out
+
+# Bỏ qua tệp kết quả kiểm thử
+ketqua*.txt

@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // Ten hien ra o menu chon cau hinh go loi.
+      "name": "Go loi C++",
+      // Loai trinh go loi cua tien ich C/C++.
+      "type": "cppdbg",
+      "request": "launch",
+      // Chuong trinh se chay: dung ten ma tasks.json vua sinh ra.
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      // true thi dung ngay o dong dau ham main. De false.
+      "stopAtEntry": false,
+      // Thu muc lam viec khi chay, quyet dinh duong dan tuong doi
+      // cua cac tep du lieu ma chuong trinh mo.
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      // Tren macOS doi thanh "lldb".
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+      // Tu bien dich lai truoc khi go loi. Chuoi nay phai trung
+      // dung voi "label" trong tasks.json.
+      "preLaunchTask": "Bien dich C++",
+      "setupCommands": [
+        {
+          // Cho phep xem noi dung vector, string duoi dang
+          // de doc thay vi dia chi bo nho.
+          "description": "Hien thi de doc",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
